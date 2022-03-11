@@ -1,5 +1,7 @@
 {
   "name": "synoptic-project",
+  "homepage": "http://cornerstonedev.co.uk/synoptic-project/",
+  "description": "Synoptic Project for apprenticeship",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

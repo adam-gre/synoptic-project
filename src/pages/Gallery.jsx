@@ -1,4 +1,3 @@
-import { selectOptions } from "@testing-library/user-event/dist/select-options";
 import { useEffect, useState } from "react"; 
 
 function Gallery() {
