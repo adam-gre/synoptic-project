@@ -29,7 +29,7 @@ function Blog() {
         }))
     }, []);
     return (
-        <>
+        <div className='container'>
             <h2>Blog</h2>
             {posts.map((blog) => {
                 return (
@@ -41,7 +41,7 @@ function Blog() {
                     </div>
                 )
             })}
-        </>
+        </div>
     )
 }
 

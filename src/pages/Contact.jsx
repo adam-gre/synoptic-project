@@ -16,7 +16,7 @@ function Contact() {
     }
 
     return (
-        <div id='contact'>
+        <div id='contact' className='container'>
             <h2>Contact</h2>
             <form style={{display: 'block'}}>
                 <input type="text" name="name" id="name" placeholder='Name' onChange={handleChange} /><br/>

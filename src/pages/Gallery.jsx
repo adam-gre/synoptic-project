@@ -25,11 +25,11 @@ function Gallery() {
     useEffect(() => {
         document.title = 'Gallery';
         
-       importAll(require.context('../images', true, /\.jpg$/))
+       importAll(require.context('../images', true, /\min.jpg$/))
     }, []);
 
     return (
-        <div id='gallery'>
+        <div id='gallery' className='container'>
             <h2>Gallery</h2>
             <div className="filters">
                 <p>Filter:</p>

@@ -6,7 +6,10 @@ function Home() {
     }, []);
     return (
         <>
-        <h2>Home</h2>
+            <h2>Home</h2>
+            <div className='hero'>
+                <h3>Welcome to my gallery</h3>
+            </div>
         </>
     )
 }

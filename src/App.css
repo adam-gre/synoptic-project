@@ -3,8 +3,22 @@
 .App {
   text-align: center;
   font-family: 'Poppins', sans-serif;
+}
+
+.container {
   max-width: 75vw;
   margin: auto;
+}
+
+.hero {
+  background: url('./images/other/IMAGE (20)-min.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .gallery-image-wrapper:hover {
